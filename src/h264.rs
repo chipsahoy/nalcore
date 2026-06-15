@@ -2,8 +2,10 @@
 
 use core::fmt;
 
+pub mod pps;
 pub mod sps;
 
+pub use pps::*;
 pub use sps::*;
 
 /// The five-bit `nal_unit_type` field from an H.264 NAL unit header.
