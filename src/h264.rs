@@ -2,6 +2,10 @@
 
 use core::fmt;
 
+pub mod sps;
+
+pub use sps::*;
+
 /// The five-bit `nal_unit_type` field from an H.264 NAL unit header.
 #[derive(Clone, Copy, Debug, Eq, Hash, PartialEq)]
 pub enum NalUnitType {
