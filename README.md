@@ -39,3 +39,9 @@ Build a clean, correct, and maintainable decoder foundation first, then optimize
 ## Status
 
 Project bootstrap in progress.
+
+## Planning
+
+See [Longer-Term Plans](docs/PLANS.md) for tentative architecture, decoding,
+testing, safety, tooling, and release ideas beyond the currently tracked
+GitHub issues.
