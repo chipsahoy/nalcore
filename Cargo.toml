@@ -1,0 +1,13 @@
+[package]
+name = "nalcore"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Software decoding for H.264/AVC and H.265/HEVC"
+repository = "https://github.com/chipsahoy/nalcore"
+license = "MIT OR Apache-2.0"
+keywords = ["codec", "decoder", "h264", "h265", "video"]
+categories = ["multimedia::video"]
+
+[dependencies]
+
