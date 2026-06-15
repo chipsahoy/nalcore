@@ -3,6 +3,7 @@
 pub mod bitstream;
 pub mod h264;
 pub mod h265;
+pub mod nal;
 
 #[cfg(test)]
 mod tests {
